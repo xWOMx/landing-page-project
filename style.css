@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "Roboto";
 }
@@ -11,6 +12,7 @@ body {
 .section-one {
   background-color: #1f2937;
 }
+
 #header-logo {
   font-size: 24px;
   color: #f9faf8;
@@ -20,10 +22,12 @@ a {
   font-size: 18px;
   color: #e5e7eb;
 }
+
 .navbar {
   display: flex;
   flex-direction: row;
 }
+
 ul {
   display: flex;
   gap: 14px;
@@ -44,6 +48,7 @@ h1 {
   font-weight: bolder;
   color: #f9faf8;
 }
+
 .secondary {
   font-size: 18px;
   color: #e5e7eb;
@@ -80,4 +85,50 @@ h1 {
   border: 1px #3882f6;
   border-radius: 10px;
   margin-top: 40px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+
+.row-of-blue-divs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+.blue-box {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+
+}
+.p-second {
+  text-align: center;
+}
+
+.section-three {
+  background-color: #e5e7eb ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+}
+h3 {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+  font-style: italic;
+  text-align: center;
+}
+.p-third {
+  font-size: 18px;
+  text-align: right;
+  margin-right: 550px;
+  margin-top: 30px;
 }
