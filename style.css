@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto";
+}
+
+.section-one {
+  background-color: #1f2937;
+}
+#header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  display: flex;
+  gap: 14px;
+  list-style-type: none;
+}
+
+.navbar-right,
+.navbar-left {
+  display: flex;
+  width: 50%;
+  padding: 12px;
+  align-items: center;
+}
+.navbar-right {
+  justify-content: flex-end;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  padding: 50px;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.content-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 200px;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border: 1px #3882f6;
+  border-radius: 10px;
+  margin-top: 40px;
+}
